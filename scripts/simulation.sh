@@ -1,0 +1,2 @@
+python -m instamap.simulator.render_from_pdb +dataset=simulate_trpv1 num_shots=100 batch_size=10 +rendering=n3 # dataset=simulate_trpv1 -> src/instamap/simulator/conf/dataset/simulate_trpv1.yaml
+python -m instamap.simulator.render_from_pdb +dataset=simulate_trpv1 num_shots=100 batch_size=10 +rendering=bioem # +rendering=bioem -> src/instamap/simulator/conf/rendering/bioem.yaml

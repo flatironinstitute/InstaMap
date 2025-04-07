@@ -1,0 +1,16 @@
+# @package _global_
+
+pdb:
+  path: data/pdb/pdb3j5p.ent.gz
+  zero_center_of_mass: false
+shot_info_path: src/instamap/simulator/conf/dataset/simulate_trpv1.star
+
+render:
+  image_height: 160
+  image_width: 160
+  depth_samples: 160
+  pixel_size: 1.2
+  integration_depth: 192
+
+volume_shape: [320, 320, 320]
+volume_pixel_size: 0.6

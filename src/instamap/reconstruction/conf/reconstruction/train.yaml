@@ -1,0 +1,8 @@
+defaults:
+  - train_base
+  - _self_
+
+hydra:
+  job:
+    chdir:
+      true

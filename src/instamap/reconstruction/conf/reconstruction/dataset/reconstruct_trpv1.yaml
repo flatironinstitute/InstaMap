@@ -1,0 +1,24 @@
+# @package _global_
+
+# Configuration for simulated trpv1 dataset from PDB
+
+data:
+  path: data/trpv1-simulated/outputs/2025-04-04/12-30-27/rendered.npz
+  reference_volume_path: data/trpv1-simulated/outputs/2025-04-04/12-30-27/volume.npy
+  image:
+    height: 160
+    width: 160
+    pixel_size: 1.2
+
+criterion:
+  noise_ratio: 3
+  normalize: false
+  sensor_type: CorrelationSensor
+
+
+renderer:
+  integration_depth: 192
+  extent: [192, 192, 192]
+
+model:
+  encoding_config_otype: Grid 

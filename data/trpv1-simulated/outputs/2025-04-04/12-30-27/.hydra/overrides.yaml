@@ -1,0 +1,4 @@
+- +dataset=simulate_trpv1
+- num_shots=100
+- batch_size=10
+- +rendering=n3

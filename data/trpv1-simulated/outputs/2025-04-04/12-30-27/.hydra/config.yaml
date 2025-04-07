@@ -1,0 +1,37 @@
+device: cpu
+batch_size: 10
+pdb:
+  path: data/pdb/pdb3j5p.ent.gz
+  offset: null
+  zero_center_of_mass: false
+shot_info_path: src/instamap/simulator/conf/dataset/simulate_trpv1.star
+render:
+  image_height: 160
+  image_width: 160
+  depth_samples: 160
+  pixel_size: 1.2
+  integration_depth: 192.0
+  use_ctf: true
+  extent: null
+  heterogeneity: null
+  pose: null
+  mask: null
+  augment:
+    angle: null
+    offset: null
+  noise:
+    model: gaussian
+    sigma: 3.0
+    relative: false
+  normalize: false
+  upsample: 4.0
+  use_gaussian_scattering: true
+include_reference: true
+num_shots: 100
+output_mrcs: false
+volume_shape:
+- 320
+- 320
+- 320
+volume_pixel_size: 0.6
+volume_only: false

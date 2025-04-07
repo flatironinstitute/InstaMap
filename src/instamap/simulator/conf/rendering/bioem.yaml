@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - override /render/noise: bioem_base
+  - _self_
+
+render:
+  noise:
+    sigma: 3
+    method: saddle-approx
+    N_hi: 1
+    N_lo: 0.1
+    mu_hi: 10
+    mu_lo: -10

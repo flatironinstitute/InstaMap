@@ -1,0 +1,14 @@
+defaults:
+  - render_from_pdb_base
+  - render/noise: gaussian_base
+  - _self_
+
+include_reference: true
+
+render:
+  upsample: 4
+
+hydra:
+  job:
+    chdir:
+      true

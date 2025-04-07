@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /render/noise: gaussian_base
+  - _self_
+
+render:
+  noise:
+    sigma: 3
+    relative: false
+  normalize: false
